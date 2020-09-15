@@ -12,6 +12,12 @@ body{
 .mt-85{
     margin-top: 85px;
 }
+.ptb-40{
+    padding: 40px 0;
+}
+.mt-50{
+    margin-top: 50px;
+}
 .mt-30{
     margin-top: 30px;
 }
@@ -165,4 +171,113 @@ body{
 .details p{
     white-space: nowrap;
     font-size: 14px;
+}
+/* contact-section */
+.single-info{
+    margin: 10px 0;
+}
+.contact-icon{
+    margin-right: 20px;
+}
+.contact-text p{
+    margin: 0px;
+}
+.contact-form{
+    background-color:#d9d9d9;
+    padding: 20px;
+}
+.contact-form input{
+    border-radius: 12px !important;
+}
+.submit-button{
+    color: white;
+    background-color: #044c91;
+    padding: 10px 40px !important;
+}
+
+/* about-us */
+.about-us{
+    position: relative;
+    background-color: #389cad;
+}
+.about-us img {
+    position: absolute;
+    height: 100%;
+    width: 49%;
+    right: 0;
+}
+.about-us p{
+    text-align: justify;
+    color: white;
+}
+.about-us h3{
+    font-size: 36px;
+    color: white;
+}
+
+/* Footer nav */
+.footer-nav {
+    padding: 40px 0;
+    background-color: #044c91;
+    color: white;
+    text-align: justify;
+}
+.footer-logo img{
+    width: 200px;
+}
+.single-footer-icon{
+    margin-right: 20px;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.single-footer-icon i{
+    position: absolute;
+    top: 50%;
+    font-size: 30px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.footer-menu ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.footer-menu ul li{
+    padding: 0;
+    margin: 10px 0;
+}
+.footer-menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.footer-form h5{
+    font-size: 20px;
+    color: white;
+    white-space: nowrap;
+}
+.subscribe{
+    background: white;
+    border-radius: 13px;
+    padding: 5px 18px;
+    color:#044c91 ;
+    font-weight: 600;
+}
+/* footer */
+.footer{
+    border-top: 2px solid #5082b2;
+    background-color: #044c91;
+}
+.footer-contant{
+    padding: 15px 0;
+    color: white;
+}
+.footer-contant p{
+    margin: 0;
+    width: 100%;
+    text-align: right;
+    line-height: 3.5;
 }
