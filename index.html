@@ -7,26 +7,17 @@
     <title style="color: blue;">Trackeroptiomal</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-    <script src="https://kit.fontawesome.com/7ce4c14e53.js" crossorigin="anonymous"></script>
 
-
-
-    <!-- custom css and javascript -->
-    <link rel="stylesheet" href="./css//style.css">
-    <link rel="stylesheet" href="./css/responsive.css">
-    <script src="./javascript/index.js"></script>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-md nav-sm navbar-dark bg-dark" id="navbarCollapsInd">
         <div class="container">
             <a href="#" class="navbar-brand">
                 <img src="./images/logo.png" alt="trackeroptiomal">
             </a>
-            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <button id="navToggler" type="button" class="navbar-toggler" data-toggle="collapse"
+                data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
@@ -38,7 +29,7 @@
                         <a href="#FEATURE" class="nav-item nav-link">FEATURE</a>
                         <a href="#VIDEO" class="nav-item nav-link">VIDEO</a>
                         <a href="#TESTIMONIAL" class="nav-item nav-link">TESTIMONIAL</a>
-                        <a href="#conInfo" class="nav-item nav-link">CONTACT US</a>
+                        <a href="#CONTACT" class="nav-item nav-link">CONTACT US</a>
                         <a href="#ABOUT" class="nav-item nav-link">ABOUT US</a>
                     </div>
                 </form>
@@ -57,7 +48,8 @@
                 <div class="carousel-item active">
                     <div class="row single-item">
                         <div class="col-md-6 pr-56">
-                            <h1>Them Company <span>Slogan </span> gose Here</h1>
+                            <h1>Them Company <span>Slogan </span> </h1>
+                            <h1> gose Here</h1>
                             <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque laborum quae
                                 eum nobis
                                 eligendi debitis blanditiis earum possimus veritatis rerum!</p>
@@ -115,8 +107,8 @@
                 <h1>FEATURE</h1>
             </div>
             <div class="section-content  row">
-                <div class="col-md-4 mt-3 text-center">
-                    <div class="single-featurer">
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-3 text-center">
+                    <div class="single-featurer hover-effect1">
                         <div class="color-bar bar-bg1"></div>
                         <div class="feature-icon">
                             <img src="./images/icons/icon1.png" alt="icon">
@@ -131,8 +123,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mt-3 text-center">
-                    <div class="single-featurer">
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-3 text-center">
+                    <div class="single-featurer hover-effect2">
                         <div class="color-bar bar-bg2"></div>
                         <div class="feature-icon">
                             <img src="./images/icons/icon2.png" alt="icon">
@@ -147,8 +139,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mt-3 text-center">
-                    <div class="single-featurer">
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-3 text-center">
+                    <div class="single-featurer hover-effect3">
                         <div class="color-bar bar-bg3"></div>
                         <div class="feature-icon">
                             <img src="./images/icons/icon3.png" alt="icon">
@@ -163,8 +155,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mt-3 text-center">
-                    <div class="single-featurer">
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-3 text-center">
+                    <div class="single-featurer  hover-effect4">
                         <div class="color-bar bar-bg4"></div>
                         <div class="feature-icon">
                             <img src="./images/icons/icon4.png" alt="icon">
@@ -179,8 +171,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mt-3 text-center">
-                    <div class="single-featurer">
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-3 text-center">
+                    <div class="single-featurer  hover-effect5">
                         <div class="color-bar bar-bg5"></div>
                         <div class="feature-icon">
                             <img src="./images/icons/icon5.png" alt="icon">
@@ -195,8 +187,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mt-3 text-center">
-                    <div class="single-featurer">
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-3 text-center">
+                    <div class="single-featurer  hover-effect6">
                         <div class="color-bar bar-bg6"></div>
                         <div class="feature-icon">
                             <img src="./images/icons/icon6.png" alt="icon">
@@ -218,21 +210,19 @@
     <section id="VIDEO">
         <div class="container mt-85">
             <div class="video-section">
-                <iframe width="100%" height="500" src="https://www.youtube.com/embed/nMJDNG68WqA" frameborder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+                    <iframe wi width="100%" height="500"  src="https://www.youtube.com/embed/snnorsg0sbM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
     </section>
     <!-- TESTIMONIALS -->
-    <section>
+    <section id="TESTIMONIALS">
         <div class="section-inner container ">
             <div class="section-title">
                 <h1>TESTIMONIALS</h1>
             </div>
             <div class="section-content  row">
-                <div class="col-md-4 mt-3 text-center">
-                    <div class="single-featurer">
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-3 text-center">
+                    <div class="single-featurer hover-effect hover-effect2">
                         <div class="color-bar bar-bg4"></div>
                         <div class="feature-description ">
                             <p style="text-align: center;">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -254,8 +244,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mt-3 text-center">
-                    <div class="single-featurer">
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-3 text-center">
+                    <div class="single-featurer hover-effect3">
                         <div class="color-bar bar-bg5"></div>
                         <div class="feature-description ">
                             <p style="text-align: center;">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -278,8 +268,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mt-3 text-center">
-                    <div class="single-featurer">
+                <div class="col-lg-4 col-md-6 col-sm-12  mt-3 text-center">
+                    <div class="single-featurer hover-effect1">
                         <div class="color-bar bar-bg6"></div>
                         <div class="feature-description ">
                             <p style="text-align: center;">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -304,14 +294,14 @@
             </div>
         </div>
     </section>
-    <!-- TESTIMONIALS -->
-    <section id="TESTIMONIAL">
+    <!-- contact us -->
+    <section id="CONTACT">
         <div class="section-inner container ">
             <div class="section-title">
                 <h1>CONTACT US</h1>
             </div>
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 single-featurer m-15 m15 static-height ">
                     <p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error eaque
                         neque laboriosam rem placeat omnis, qui dolore a ducimus animi quasi explicabo enim quidem
                         sapiente? Consequatur maxime quis vitae eos?</p>
@@ -347,19 +337,19 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="contact-form">
+                <div class="col-md-6 static-height  ">
+                    <div class="contact-form contact-shadow">
                         <div class="form-group">
                             <label for="name">Name</label>
-                            <input class=" form-control" type="text" id="name">
+                            <input class=" form-control" placeholder="Enter your name" type="text" id="name">
                         </div>
                         <div class="form-group mt-30">
                             <label for="email">Your Email</label>
-                            <input class=" form-control" type="email" id="email">
+                            <input class="  form-control" placeholder="Enter your Email" type="email" id="email">
                         </div>
                         <div class="form-group mt-30">
                             <label for="">Message</label>
-                            <textarea name="textarea" id="" class="form-control" rows="4"></textarea>
+                            <textarea name="textarea" id=""  placeholder="Enter your Message" class="form-control" rows="5"></textarea>
                         </div>
                         <button class="btn btn-default submit-button">SUBMIT</button>
                     </div>
@@ -368,53 +358,57 @@
         </div>
     </section>
     <section id="conInfo"></section>
-    <section >
+
+    <section id="ABOUT">
         <div class="about-us mt-85  ">
-            <img src="./images/about.png" alt="">
+            <img class=" aboutImg " src="./images/about.png" alt="">
             <div class="container">
-                <div class="about-container row">
+                <div class="about-container row ">
                     <div class="col-md-6 ptb-40 about-contant">
                         <h3>About</h3>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, saepe iste voluptatem odio
                             dolorum tenetur accusantium! Minima, dolor? Libero amet unde quas consectetur perferendis
-                            accusantium quam quos veniam, corrupti iusto non cupiditate, iure officia provident.</p>
+                            accusantium .</p>
                         <br>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus nisi accusamus facere!
                             Odio repellendus eligendi, id facilis in ea eius?</p>
                         <br>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, aut fuga assumenda
-                            repudiandae amet soluta rerum. Harum cumque libero quia accusamus adipisci officiis?
-                            Provident, temporibus!</p>
+                            repudiandae amet soluta rerum. Harum cumque libero quia accusamus adipisci.</p>
                     </div>
+                    <!-- <div class=" col-md-8 offset-md-2 d-none d-md-block d-lg-none">
+                        <img style="position: relative;width: 100%;margin-bottom: 35px;" src="./images/about.png" alt="">
+                    </div> -->
                 </div>
             </div>
         </div>
     </section>
-    <section id="ABOUT">
+    <section id="Footer Nav">
         <div class="footer-nav ">
             <div class="container">
                 <div class="footer-nav-container row">
-                    <div class="col-md-4">
+                    <div class="col-md-5">
                         <div class="footer-logo">
                             <img src="./images/logo.png" alt="">
                         </div>
-                        <p class="mt-30">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo assumenda
+                        <p class="mt-30">lll ipsum dolor sit amet consectetur adipisicing elit. Explicabo assumenda
                             repellendus accusantium ratione corrupti eos, magni incidunt! Ratione vero hic ab earum
                             reiciendis alias numquam, accusantium repellat sequi repudiandae corrupti .</p>
-                        <div class="social-icon d-flex mt-30">
-                            <div class="single-footer-icon">
-                                <i class="fab fa-facebook-f"></i>
-                            </div>
-                            <div class="single-footer-icon">
-                                <i class="fab fa-twitter"></i>
-                            </div>
-                            <div class="single-footer-icon">
-                                <i class="fab fa-instagram-square"></i>
+                        <div class="social-icon text-center mt-30">
+                            <div class="d-flex temp-socail ">
+                                <div class="single-footer-icon">
+                                    <i class="fab fa-facebook-f"></i>
+                                </div>
+                                <div class="single-footer-icon">
+                                    <i class="fab fa-twitter"></i>
+                                </div>
+                                <div class="single-footer-icon">
+                                    <i class="fab fa-instagram-square"></i>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-2"></div>
-                    <div class="col-md-3 footer-menu">
+                    <div class="col-md-3  footer-menu">
                         <ul>
                             <li><a href="#">Important Links</a></li>
                             <li><a href="#">Help & Support</a></li>
@@ -423,10 +417,10 @@
                             <li><a href="#">FAQs</a></li>
                         </ul>
                     </div>
-                    <div class="col-md-3 footer-form">
+                    <div class="col-md-4 footer-form">
                         <h5>Stay Upto Date by Our Newsletter</h5>
                         <p>Your Email</p>
-                        <input type="email" name="email" class="form-control">
+                        <input type="email"  placeholder="Enter your Email" name="email" class="form-control">
                         <button class="mt-4 btn btn-default subscribe">SUBSCRIBE</button>
                     </div>
                 </div>
@@ -434,9 +428,9 @@
         </div>
     </section>
     <section>
-        <div class=" footer">
-            <div class="container d-flex footer-contant">
-                <div class="social-icon d-flex ">
+        <div class=" footer" id="fot">
+            <div class="container dbflex footer-contant">
+                <div class="ml-15 social-icon d-flex ">
                     <div class="single-footer-icon">
                         <i class="fab fa-facebook-f"></i>
                     </div>
@@ -451,6 +445,17 @@
             </div>
         </div>
     </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/7ce4c14e53.js" crossorigin="anonymous"></script>
+
+    <!-- custom css and javascript -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <script src="./javascript/index.js"></script>
+
 </body>
 
 </html>

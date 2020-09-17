@@ -1,0 +1,208 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 325px) {
+    .static-height{
+        height: inherit;
+    }
+    .footer-contant p{
+        white-space: nowrap;
+    }
+    
+    .dbflex{
+        display: block;
+    }
+    
+.ml-15{
+    margin-left: 0;
+}
+}
+@media (max-width: 575px) {
+    
+    .static-height{
+        height: inherit;
+    }
+    .single-item {
+        padding: 20px 40px;
+    }
+    .single-item h1{
+        font-size: 30px;
+    }
+    
+    .slideControllerArrow{
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+        position: relative;
+        border: 2px solid white;
+        color: white;
+    }
+    .carousel-control-next, .carousel-control-prev{
+        width: 40px;
+    }
+    .section-title h1{
+        font-size: 28px;
+    }
+    .feature-title h2 {
+        font-size: 22px;
+        color: #333333;
+    }
+    .feature-description p{
+        font-size: 16px;
+    }
+    .single-featurer {
+        padding: 20px 30px;
+    }
+    .contact-form{
+        margin-top: 30px;
+    }
+    .m-15{
+        margin: 0 15px;
+    }
+    .about-us img{
+        display: none;
+    }
+    .about-contant{
+        margin: 0 20px;
+    }
+    .ptb-40{
+        padding: 20px 0;
+    }
+    .temp-socail{
+        display: inline-block !important;
+    }
+    .footer-menu ul li {
+        padding: 0;
+        margin: 3px 0;
+    }
+    .footer-menu ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+    }
+    .footer-form{
+        margin-top: 40px;
+    }
+    .footer-form p {
+        font-size: 15px;
+    }
+    .single-footer-icon {
+        width: 45px;
+        height: 45px;
+        margin-right: 10px;
+    }
+    .single-footer-icon i{
+        font-size: 20px;
+    }
+    .footer-contant {
+        padding: 15px 25px;
+        color: white;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+    .single-item {
+        background-color: #389cac;
+        padding: 20px 20px;
+    }
+    .single-item h1 {
+        font-size: 33px;
+    }
+    .single-item {
+        background-color: #389cac;
+        padding: 20px;
+    }
+
+    .m15{
+        margin: 15px;
+    }
+    
+    .about-us img{
+        display: none;
+    }
+    .about-contant{
+        margin: 0 20px;
+    }
+    
+    
+    .temp-socail{
+        display: inline-block !important;
+    }
+    .footer-menu ul li {
+        padding: 0;
+        margin: 3px 0;
+    }
+    .footer-menu ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+    }
+    .footer-form{
+        margin-top: 40px;
+    }
+    .footer-form p {
+        font-size: 15px;
+    }
+    .single-footer-icon {
+        width: 45px;
+        height: 45px;
+        margin-right: 10px;
+    }
+    .single-footer-icon i{
+        font-size: 20px;
+    }
+    .footer-contant {
+        padding: 15px 25px;
+        color: white;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .single-item {
+        background-color: #389cac;
+        padding: 30px;
+    }
+    .pr-56 {
+        padding-right: 0;
+    }
+    .single-item h1 {
+        font-size: 30px;
+    }
+    .footer-form h5 {
+        white-space: normal;
+    }
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding: 0 4px;
+        font-size: 16px;
+    }
+    #navbarCollapsInd {
+        height: 75px;
+    }
+    .contact-form {
+        margin-top: 30px;
+    }
+    .footer-menu .footer-form{
+        margin-top: 30px;
+    }
+    .contact-form {
+        margin-top: 40px;
+    }
+    .ptb-40 {
+        padding: 5px 0;
+    }
+    .about-us p {
+        text-align: justify;
+        color: white;
+        line-height: 1.3;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
