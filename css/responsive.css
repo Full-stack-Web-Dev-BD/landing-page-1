@@ -99,6 +99,13 @@
         padding: 15px 25px;
         color: white;
     }
+    .dft{
+        display: initial;
+    }
+    .dft p{
+        text-align: left;
+        margin-left: 15px;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */

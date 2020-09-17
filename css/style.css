@@ -470,4 +470,8 @@ body{
     width: 100%;
     text-align: right;
     line-height: 3.5;
+    margin-right: 15px;
+}
+.dft{
+    display: flex;
 }
