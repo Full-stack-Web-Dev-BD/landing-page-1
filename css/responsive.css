@@ -16,7 +16,10 @@
 }
 }
 @media (max-width: 575px) {
-    
+    #login-form{
+        left: 50%;
+        transform: translate(-50%);
+    }
     .static-height{
         height: inherit;
     }
@@ -158,6 +161,17 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) {
+ 
+    .navbar-collapse{
+        position: relative;
+        right: 15px;
+    }
+    .navbar-brand img {
+        width: 150px;
+        position: relative;
+        right: 10px;
+        
+    }
     .single-item {
         background-color: #389cac;
         padding: 30px;

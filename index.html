@@ -31,13 +31,24 @@
                         <a href="#TESTIMONIAL" class="nav-item nav-link">TESTIMONIAL</a>
                         <a href="#CONTACT" class="nav-item nav-link">CONTACT US</a>
                         <a href="#ABOUT" class="nav-item nav-link">ABOUT US</a>
+                        <a id="login-form-toggler" href="#" class="nav-item nav-link">LOGIN</a>
                     </div>
                 </form>
+                <div id="login-form">
+                    <div class="d-flex">
+                        <label for="email">Email</label>
+                        <p class="text-right w-100 text-warning" style="cursor: pointer;" id="login-form-toggler2">X</p>
+                    </div>
+                    <input class="form-control" type="email" placeholder="Enter Email ">
+                    <label for="password">Password</label>
+                    <input class="form-control" type="password" placeholder="Enter Password">
+                    <button class="btn btn-success btn-sm bt-white mt-2">Login</button>
+                </div>
             </div>
         </div>
     </nav>
     <!-- Banner -->
-    <div class="container mt-30">
+    <div class="container " style="padding-top: 120px;">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -46,7 +57,7 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <div class="row single-item">
+                    <div class="row single-item slbg1">
                         <div class="col-md-6 pr-56">
                             <h1>Them Company <span>Slogan </span> </h1>
                             <h1> gose Here</h1>
@@ -60,7 +71,7 @@
                     </div>
                 </div>
                 <div class="carousel-item ">
-                    <div class="row single-item">
+                    <div class="row single-item slbg2">
                         <div class="col-md-6 pr-56">
                             <h1>Our Management <span>Team </span> Allways Here</h1>
                             <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque laborum quae
@@ -73,7 +84,7 @@
                     </div>
                 </div>
                 <div class="carousel-item ">
-                    <div class="row single-item">
+                    <div class="row single-item slbg3">
                         <div class="col-md-6 pr-56">
                             <h1>Thank you for <span>Slogan </span> Got it </h1>
                             <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque laborum quae
@@ -210,7 +221,7 @@
     <section id="VIDEO">
         <div class="container mt-85">
             <div class="video-section">
-                    <iframe wi width="100%" height="500"  src="https://www.youtube.com/embed/snnorsg0sbM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <!-- <iframe wi width="100%" height="500"  src="https://www.youtube.com/embed/snnorsg0sbM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
             </div>
         </div>
     </section>
@@ -349,7 +360,8 @@
                         </div>
                         <div class="form-group mt-30">
                             <label for="">Message</label>
-                            <textarea name="textarea" id=""  placeholder="Enter your Message" class="form-control" rows="5"></textarea>
+                            <textarea name="textarea" id="" placeholder="Enter your Message" class="form-control"
+                                rows="5"></textarea>
                         </div>
                         <button class="btn btn-default submit-button">SUBMIT</button>
                     </div>
@@ -384,7 +396,7 @@
         </div>
     </section>
     <section id="Footer Nav">
-        <div class="footer-nav ">
+        <div class="footer-nav mt-5">
             <div class="container">
                 <div class="footer-nav-container row">
                     <div class="col-md-5">
@@ -420,7 +432,7 @@
                     <div class="col-md-4 footer-form">
                         <h5>Stay Upto Date by Our Newsletter</h5>
                         <p>Your Email</p>
-                        <input type="email"  placeholder="Enter your Email" name="email" class="form-control">
+                        <input type="email" placeholder="Enter your Email" name="email" class="form-control">
                         <button class="mt-4 btn btn-default subscribe">SUBSCRIBE</button>
                     </div>
                 </div>

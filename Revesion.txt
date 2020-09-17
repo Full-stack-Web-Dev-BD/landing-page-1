@@ -1,0 +1,16 @@
+
+1. Change body background colour to white please //done
+
+2. The login menu item is missing with the open login form under the menu bar//done
+
+3. I want the stick menu bar please. That is when you scrolling down or change the section, the menu bar should show at all time.//done
+
+4. Make the slider width to same as the container and have 3 different background colour please //done
+
+5. Padding between about us and newsletters//done
+
+6. height of menu bar to 80px please//done
+
+7.max-width of container should be 1418px for menu bar and slider other section width remain same please//done
+
+8. Remove the hand pointer from the feature and testimonial please//done

@@ -1,14 +1,39 @@
 body{
-    background-color: #f7fafe;
+    background-color: white;
     font-weight: 500;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     /* background-image: linear-gradient(to right, #fbcc66 , #ffce66); */
 }
+.container{
+    max-width: 1418px;
+}
+/* login-form */
+.nav-sm{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+.navbar-collapse{
+    position: relative;
+}
 
+#login-form {
+    transition: 1s;
+    width: 300px;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    z-index: 999;
+    background: #044c91;
+    padding: 15px;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    display: none;
+}
 .dbflex{
     display: flex;
-    /* margin-left: 15px; */
 }
 .ml-15{
     margin-left: 15px;
@@ -40,7 +65,7 @@ body{
 
 
 #navbarCollapsInd{
-    height: 100px;
+    height: 80px;
     background-color: #044c91 !important;
 }
 .navbar-dark .navbar-nav .nav-link{
@@ -57,9 +82,18 @@ body{
 
 /* Banner item */
 .single-item{
-    background-color: #389cac;
     padding: 60px 70px;
 }
+.slbg1{
+    background-color: #118bb2;
+}
+.slbg2{
+    background-color: #06d5a0;
+}
+.slbg3{
+    background-color: #ef4a6f;
+}
+
 .single-item h1{
     color: white;
     font-weight: 500;
@@ -112,7 +146,6 @@ body{
     color: #044c91;
 }
 .single-featurer{
-    cursor: pointer;
     padding: 30px 20px;
     background-color:#ffffff;
     position: relative;
